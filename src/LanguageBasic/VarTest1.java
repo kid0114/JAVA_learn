@@ -3,9 +3,6 @@ package LanguageBasic;
 
 
 public class VarTest1 {
-
-
-
     public static void main(String[] args) {
 
         byte b1=10;
