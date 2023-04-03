@@ -39,4 +39,5 @@ public class Manager extends Worker{
         super.showSalary();
         System.out.println("BasicSalary:"+getSalary()+" "+"Bonus:"+getBonus());
     }
+
 }

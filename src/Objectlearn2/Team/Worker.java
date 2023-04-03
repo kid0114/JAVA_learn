@@ -5,15 +5,19 @@ public class Worker {
     protected int number;
     protected double salary;
 
+
     public Worker(String name,int number,double salary){
         setName(name);
         setNumber(number);
         setSalary(salary);
     }
+    public Worker(){
+    }
 
     public void intro(){
         System.out.println("Name:"+name+" "+"Number:"+number);
     }
+
     public void showSalary(){
         System.out.println("Salary:"+salary);
     }
